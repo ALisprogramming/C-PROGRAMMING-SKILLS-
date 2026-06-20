@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() 
+{
+    int a=23;
+    int square;
+    int *p1=&a;
+    int *psquare=&square;
+    *psquare=*p1* *p1 ;
+    printf("the original number:%d\n",*p1);
+    printf("the square number:%d",*psquare);
+    return 0;
+}
+    

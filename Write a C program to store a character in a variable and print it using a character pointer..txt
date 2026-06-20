@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+   char word ='A';
+   char *p=&word;
+   printf("the character is store in variable;%c\n",*p);
+   printf("the character of memory address:%p",(int *) p);
+   return 0;
+}

@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main ()
+{
+    int a=2;
+    int b=64;
+    int sum ;
+int  *p1=&a;
+int  *p2=&b;
+int  *psum=&sum;
+    *psum=*p1+*p2;
+    printf("the sum of the two number:%d",*psum);
+    return  0;
+}

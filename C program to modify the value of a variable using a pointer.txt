@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() 
+{
+    int a=12;
+    printf("the original number is:%d\n",a);
+    int *p=&a;
+    *p=25;
+    printf("the modify number is:%d",a);
+    return 0;
+}

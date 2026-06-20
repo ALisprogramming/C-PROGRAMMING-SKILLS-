@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int number = 23;
+
+    int *ptr = &number;
+
+    printf("The memory address of 'number' is: %p\n", (int *)ptr);
+
+    printf("The value stored at that address is: %d\n", *ptr);
+
+    return 0;
+}
